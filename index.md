@@ -70,7 +70,7 @@ strong {
 - How does the gene tree form?
 - lineage sorting
 - Incomplete lineage sorting
-- Gene flow
+- Admixture
 
 --- .segue .dark 
 
@@ -126,6 +126,15 @@ strong {
 *** =right
 
 <img src="./assets/img/gene-tree-incongruence-figure.jpg" width="100%" style="display: block; margin: auto 0 auto auto;" />
+
+---
+
+## Admixture
+
+- Post divergence genetic exchange between populations/species
+- Gene flow, admixture, hybridisation. 
+
+<img src="./assets/img/144202ab0602ff8d411a29a81f2000b2.jpg" width="70%" style="display: block; margin: auto;" />
 
 --- .segue .dark 
 
@@ -183,6 +192,23 @@ strong {
 ## Big cats
 
 <img src="./assets/img/cats.svg" width="80%" style="display: block; margin: auto;" />
+
+---
+
+## Lineage sorting summary
+
+- Drift sorts the lineages into clades
+- This takes time, we can't detect the divergence immediately
+- We go through stages of incomplete/complete monophyly
+- incomplete to complete lineage sorting
+- lineage sorting is faster when the population size is small (= more drift)
+- Mutation builds upon the clades, monophyly is retained [unless there is gene flow]
+
+Gene trees may not match the species tree when:
+
+- We catch the process part way through
+- **Lineages are not sorted prior to the next divergence/speciation event**
+- Admixture
 
 ---
 
@@ -287,7 +313,7 @@ strong {
 - Divide whole genome sequences into loci
 - Increased statistical confidence
 - Can also quantify ILS (says something about pop size and divergence time)
-- Potential to study **gene flow**
+- Potential to study **admixture**
 
 --- .segue .dark 
 
@@ -336,11 +362,11 @@ strong {
 
 - The 2 species are old and distinct
 - Males move about more than females
-- More recent mtDNA divergence may suggest **gene flow**
+- More recent mtDNA divergence may suggest **admixture**
 
 --- .segue .dark 
 
-## Detecting gene flow
+## Detecting admixture
 
 ---
 
@@ -368,29 +394,29 @@ strong {
 
 --- .segue .dark 
 
-## What about gene flow?
+## What about admixture?
 
 ---
 
-## Speciation with complete lineage sorting
+## Divergence with admixture
 
 <img src="./assets/img/beary5 (copy).svg" width="100%" style="display: block; margin: auto;" />
 
 ---
 
-## Speciation with complete lineage sorting
+## Divergence with admixture
 
 <img src="./assets/img/bearyG.svg" width="100%" style="display: block; margin: auto;" />
 
 ---
 
-## Speciation with complete lineage sorting
+## Divergence with admixture
 
 <img src="./assets/img/bearyG2.svg" width="100%" style="display: block; margin: auto;" />
 
 ---
 
-## Expected tree frequencies with gene flow?
+## Expected tree frequencies with admixture?
 
 <img src="./assets/img/flow.svg" width="100%" style="display: block; margin: auto;" />
 
@@ -402,7 +428,7 @@ strong {
 - Only works if you have sequenced a LOT of loci (whole genomes)
 - Can detect very ancient events
 - Sometimes based on SNPs (D statistics, F-ratio statistics), essentially the same
-- Revealed many examples of gene flow in the past decade
+- Revealed many examples of admixture in the past decade
 
 
 --- &twocol

@@ -79,7 +79,7 @@ include_graphics("./assets/img/sp4-6.png")
 - How does the gene tree form?
 - lineage sorting
 - Incomplete lineage sorting
-- Gene flow
+- Admixture
 
 --- .segue .dark 
 
@@ -140,6 +140,17 @@ include_graphics("./assets/img/Gene_Loci_and_Alleles.png")
 
 ```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align='right', fig.cap=""}
 include_graphics("./assets/img/gene-tree-incongruence-figure.jpg")
+```
+
+---
+
+## Admixture
+
+- Post divergence genetic exchange between populations/species
+- Gene flow, admixture, hybridisation. 
+
+```{r, out.width = "70%", dpi = 300, echo = FALSE, fig.align='center', fig.cap=""}
+include_graphics("./assets/img/144202ab0602ff8d411a29a81f2000b2.jpg")
 ```
 
 --- .segue .dark 
@@ -210,6 +221,23 @@ include_graphics("./assets/img/gene-tree-incongruence-figure.jpg")
 ```{r, out.width = "80%", dpi = 300, echo = FALSE, fig.align = "center", fig.cap="", fig.cap=""}
   include_graphics("./assets/img/cats.svg")
 ```
+
+---
+
+## Lineage sorting summary
+
+- Drift sorts the lineages into clades
+- This takes time, we can't detect the divergence immediately
+- We go through stages of incomplete/complete monophyly
+- incomplete to complete lineage sorting
+- lineage sorting is faster when the population size is small (= more drift)
+- Mutation builds upon the clades, monophyly is retained [unless there is gene flow]
+
+Gene trees may not match the species tree when:
+
+- We catch the process part way through
+- **Lineages are not sorted prior to the next divergence/speciation event**
+- Admixture
 
 ---
 
@@ -336,7 +364,7 @@ include_graphics("./assets/img/gene-tree-incongruence-figure.jpg")
 - Divide whole genome sequences into loci
 - Increased statistical confidence
 - Can also quantify ILS (says something about pop size and divergence time)
-- Potential to study **gene flow**
+- Potential to study **admixture**
 
 --- .segue .dark 
 
@@ -393,11 +421,11 @@ include_graphics("./assets/img/gene-tree-incongruence-figure.jpg")
 
 - The 2 species are old and distinct
 - Males move about more than females
-- More recent mtDNA divergence may suggest **gene flow**
+- More recent mtDNA divergence may suggest **admixture**
 
 --- .segue .dark 
 
-## Detecting gene flow
+## Detecting admixture
 
 ---
 
@@ -433,11 +461,11 @@ include_graphics("./assets/img/gene-tree-incongruence-figure.jpg")
 
 --- .segue .dark 
 
-## What about gene flow?
+## What about admixture?
 
 ---
 
-## Speciation with complete lineage sorting
+## Divergence with admixture
 
 ```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align = "center", fig.cap=""}
   include_graphics("./assets/img/beary5 (copy).svg")
@@ -445,7 +473,7 @@ include_graphics("./assets/img/gene-tree-incongruence-figure.jpg")
 
 ---
 
-## Speciation with complete lineage sorting
+## Divergence with admixture
 
 ```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align = "center", fig.cap=""}
   include_graphics("./assets/img/bearyG.svg")
@@ -453,7 +481,7 @@ include_graphics("./assets/img/gene-tree-incongruence-figure.jpg")
 
 ---
 
-## Speciation with complete lineage sorting
+## Divergence with admixture
 
 ```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align = "center", fig.cap=""}
   include_graphics("./assets/img/bearyG2.svg")
@@ -461,7 +489,7 @@ include_graphics("./assets/img/gene-tree-incongruence-figure.jpg")
 
 ---
 
-## Expected tree frequencies with gene flow?
+## Expected tree frequencies with admixture?
 
 ```{r, out.width = "100%", dpi = 300, echo = FALSE, fig.align = "center", fig.cap=""}
   include_graphics("./assets/img/flow.svg")
@@ -475,7 +503,7 @@ include_graphics("./assets/img/gene-tree-incongruence-figure.jpg")
 - Only works if you have sequenced a LOT of loci (whole genomes)
 - Can detect very ancient events
 - Sometimes based on SNPs (D statistics, F-ratio statistics), essentially the same
-- Revealed many examples of gene flow in the past decade
+- Revealed many examples of admixture in the past decade
 
 
 --- &twocol
